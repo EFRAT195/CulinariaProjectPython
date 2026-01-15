@@ -4,8 +4,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-# קבצים אישיים או סיסמאות/קונקשן
-conection/con.py
 
 # קבצי IDE (כמו PyCharm / IntelliJ)
 .idea/

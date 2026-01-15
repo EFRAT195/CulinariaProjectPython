@@ -1,3 +1,5 @@
+#this is a demo connection the real connection is to the SQL
+
 recipes = [
     {
         "RecipeId": 1,
@@ -21,42 +23,11 @@ recipes = [
         "Difficulty": "Easy",
         "IsDairy": 0
     },
-    {
-        "RecipeId": 3,
-        "Title": "עוגיות שיבולת שועל",
-        "Description": "עוגיות פריכות ובריאות",
-        "Ingredients": "שיבולת שועל, סוכר חום, שמן, ביצה",
-        "Instructions": "מערבבים, יוצרים עוגיות ואופים 15 דקות",
-        "Category": "עוגיות",
-        "PrepTimeMinutes": 25,
-        "Difficulty": "Easy",
-        "IsDairy": 0
-    },
-    {
-        "RecipeId": 4,
-        "Title": "לזניה חלבית",
-        "Description": "לזניה עשירה עם גבינות ורוטב עגבניות",
-        "Ingredients": "דפי לזניה, גבינה צהובה, ריקוטה, רוטב עגבניות",
-        "Instructions": "מסדרים שכבות ואופים 45 דקות",
-        "Category": "ארוחות",
-        "PrepTimeMinutes": 70,
-        "Difficulty": "Hard",
-        "IsDairy": 1
-    },
-    {
-        "RecipeId": 5,
-        "Title": "עוגת גבינה אפויה",
-        "Description": "עוגת גבינה קלאסית חגיגית",
-        "Ingredients": "גבינת שמנת, סוכר, ביצים, ביסקוויטים",
-        "Instructions": "מערבבים, יוצקים לתבנית ואופים באמבט מים",
-        "Category": "עוגות",
-        "PrepTimeMinutes": 90,
-        "Difficulty": "Hard",
-        "IsDairy": 1
-    }
+    # הוסיפי את כל המתכונים שהיו ברשימה שלך
 ]
+
 def get_connection():
-    # במקום חיבור אמיתי, נחזיר פשוט אובייקט מזויף עם נתונים
+    # מחזיר חיבור מזויף שמדמה מסד נתונים
     class DummyConn:
         def cursor(self):
             return self

@@ -1,4 +1,4 @@
-from conection.con import get_connection
+from conection.connection import get_connection
 
 def get_all_recipes():
     conn = get_connection()
